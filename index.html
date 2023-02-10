@@ -1,723 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LoneCreative | Digital Marketing Agency</title>
 
-    <!-- 
-    - favicon
-  -->
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lone Creatives</title>
+    <link rel="icon" href="img/logo.ico" type="image/icon type">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <link rel="stylesheet" href="css/lkstyle.css">
 
-    <!-- 
-    - custom css link
-  -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
 
-    <!-- 
-    - google font link
-  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-
-  <body id="top">
-    <!-- 
-    - #HEADER
-  -->
-
-    <header class="header" data-header>
-      <div class="container">
-        <div class="overlay" data-overlay></div>
-
-        <a href="#">
-          <h1 class="logo">LoneCreative</h1>
-        </a>
-
-        <nav class="navbar" data-navbar>
-          <div class="navbar-top">
-            <a href="#" class="logo">LoneCreative</a>
-
-            <button
-              class="nav-close-btn"
-              aria-label="Close Menu"
-              data-nav-close-btn
-            >
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-          </div>
-
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <a href="#home" class="navbar-link" data-navbar-link>Home</a>
-            </li>
-
-            <li class="navbar-item">
-              <a href="#about" class="navbar-link" data-navbar-link>About</a>
-            </li>
-
-            <li class="navbar-item">
-              <a href="#services" class="navbar-link" data-navbar-link
-                >Services</a
-              >
-            </li>
-            <!-- 
-          <li class="navbar-item">
-            <a href="#features" class="navbar-link" data-navbar-link>Features</a>
-          </li> -->
-
-            <li class="navbar-item">
-              <a href="#blog" class="navbar-link" data-navbar-link
-                >Happy Customers</a
-              >
-            </li>
-
-            <li class="navbar-item">
-              <a href="#contact" class="navbar-link" data-navbar-link
-                >Contact Us</a
-              >
-            </li>
-          </ul>
-        </nav>
-
-        <a href="#contact" class="btn">
-          <ion-icon
-            name="chevron-forward-outline"
-            aria-hidden="true"
-          ></ion-icon>
-
-          <span>Get A Quote</span>
-        </a>
-
-        <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
-          <ion-icon name="menu-outline"></ion-icon>
-        </button>
-      </div>
-    </header>
-
+<body>
     <main>
-      <article>
-        <!-- 
-        - #HERO
-      -->
-
-        <section class="hero" id="home">
-          <div class="container">
-            <div class="hero-content">
-              <p class="hero-subtitle">
-                Marketing Experts Who have Proven Their Work
-              </p>
-
-              <h2 class="h2 hero-title">We Bring Customers That Owners Love</h2>
-
-              <p class="hero-text">
-                We provide Varieties of advertising services in affordable cost
-                so that you can get more customers for your business.
-              </p>
-
-              <button class="btn">Learn More</button>
+        <div class="container my-5 col-11" style="color:white;">
+            <div class="row p-4 pb-4 pe-lg-4 pt-lg-5 pb-lg-5 align-items-center rounded-3 border shadow-lg">
+                <div class="col-lg-8 p-3 p-lg-5 pt-lg-3">
+                    <div id="logodiv" ><img id="logoimage" src="img/logo.ico" alt=""><h3 id="logotitle" >LoneCreatives</h3></div>
+                    <h1 class="display-4 fw-bold lh-1"><span style="font-weight: 700;">Level up your <br> <span style="color: #FFB600; " >short form content</span> game</span></h1><br>
+                    <p class="lead">Are you an influencer struggling to keep up with the constant demand for fresh content? Look no further! Our content creation agency specializes in helping influencers like you produce high-quality, engaging content on autopilot.</p><br>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"><a style="color: white; text-decoration: none;" href="#features">Features</a></button>
+                        <button type="button" class="btn btn-outline-light btn-lg px-4"><a style="color: white; text-decoration: none;" href="#custom-cards">Explore Work</a></button>
+                    </div>
+                </div>
+                <div class="col-lg-4" align="center" style="overflow: hidden; border-radius:10px; padding-left:0;">
+                    <!-- <iframe width="310" height="510" class="rounded-lg-3" style="border-radius:10px;"
+                        src="https://www.youtube.com/embed/x3TCOJh1XFQ" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe> -->
+                        <div><script src="https://fast.wistia.com/embed/medias/xr8jcugi6j.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:177.78% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_xr8jcugi6j videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/xr8jcugi6j/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div></div>
+                </div>
             </div>
-
-            <figure class="hero-banner">
-              <img
-                src="./assets/images/hero-banner.png"
-                width="694"
-                height="529"
-                loading="lazy"
-                alt="hero-banner"
-                class="w-100 banner-animation"
-              />
-            </figure>
-          </div>
-        </section>
-
-        <!-- 
-        - #ABOUT
-      -->
-
-        <section class="section about" id="about">
-          <div class="container">
-            <figure class="about-banner">
-              <img
-                src="./assets/images/about-banner.png"
-                width="700"
-                height="532"
-                loading="lazy"
-                alt="about banner"
-                class="w-100 banner-animation"
-              />
-            </figure>
-
-            <div class="about-content">
-              <h2 class="h2 section-title underline">Why Our Agency</h2>
-
-              <p class="about-text">
-                We run different kinds of Advertisements for your business so
-                that you can get Customers. We have worked with several Store
-                and Business Owners in different parts of India like
-                <b>Mumbai, Pune, Ahmedabad, Kanpur, banglore</b>
-              </p>
-
-              <p class="about-text">
-                Our Experience Will Definetly Bring You clients. Scroll down
-                below to see our work portfolio. How we have changed the life of
-                Businessmen.
-              </p>
-
-              <ul class="stats-list">
-                <li class="stats-card">
-                  <p class="h3 stats-title">34</p>
-
-                  <p class="stats-text">Ad campaigns Created</p>
-                </li>
-
-                <li class="stats-card">
-                  <p class="h3 stats-title">3,71,00</p>
-
-                  <p class="stats-text">Return Given</p>
-                </li>
-
-                <li class="stats-card">
-                  <p class="h3 stats-title">730%</p>
-
-                  <p class="stats-text">Return Percentage</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <!-- 
-        - #SERVICE
-      -->
-
-        <section class="section service" id="services">
-          <div class="container">
-            <h2 class="h2 section-title underline">Our Specialization</h2>
-
-            <ul class="service-list">
-              <li>
-                <div class="service-card">
-                  <div class="card-icon">
-                    <ion-icon name="telescope-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 title">Instagram Ads</h3>
-
-                  <p class="text">
-                    We provide Effective Instagram Advertising Service So that
-                    Your Brand Gets Poplar and Your Sales Gets Increased.
-                  </p>
-
-                  <button class="card-btn" aria-label="Show More">
-                    <ion-icon name="chevron-forward-outline"></ion-icon>
-                  </button>
-                </div>
-              </li>
-
-              <li>
-                <div class="service-card">
-                  <div class="card-icon">
-                    <ion-icon name="desktop-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 title">Google Ads</h3>
-
-                  <p class="text">
-                    Our Team Of professionals Create SEO friendly ads which
-                    increases your Revenue and Build Loyal Audience
-                  </p>
-
-                  <button class="card-btn" aria-label="Show More">
-                    <ion-icon name="chevron-forward-outline"></ion-icon>
-                  </button>
-                </div>
-              </li>
-
-              <li>
-                <div class="service-card">
-                  <div class="card-icon">
-                    <ion-icon name="globe-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 title">Facebook Ads</h3>
-
-                  <p class="text">
-                    Facebook ads can help a business get more visibility for
-                    their Products & Services and boost traffic to their website
-                    and stores.
-                  </p>
-
-                  <button class="card-btn" aria-label="Show More">
-                    <ion-icon name="chevron-forward-outline"></ion-icon>
-                  </button>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        <!-- 
-        - #FEATURES
-      -->
-        <!-- 
-      <section class="section features" id="features">
-        <div class="container">
-
-          <h2 class="h2 section-title underline">Our Features</h2>
-
-          <ul class="features-list">
-
-            <li>
-              <div class="features-card">
-
-                <div class="icon">
-                  <ion-icon name="bulb-outline"></ion-icon>
-                </div>
-
-                <div class="content">
-                  <h3 class="h3 title">Idea & Analysis</h3>
-
-                  <p class="text">
-                    Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="features-card">
-
-                <div class="icon">
-                  <ion-icon name="color-palette-outline"></ion-icon>
-                </div>
-
-                <div class="content">
-                  <h3 class="h3 title">Designing</h3>
-
-                  <p class="text">
-                    Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-          <figure class="features-banner">
-            <img src="./assets/images/feautres-banner.png" width="369" height="318" loading="lazy" alt="Features Banner"
-              class="w-100 banner-animation">
-          </figure>
-
-          <ul class="features-list">
-
-            <li>
-              <div class="features-card">
-
-                <div class="icon">
-                  <ion-icon name="code-slash-outline"></ion-icon>
-                </div>
-
-                <div class="content">
-                  <h3 class="h3 title">Development</h3>
-
-                  <p class="text">
-                    Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="features-card">
-
-                <div class="icon">
-                  <ion-icon name="rocket-outline"></ion-icon>
-                </div>
-
-                <div class="content">
-                  <h3 class="h3 title">Testing & Lunching</h3>
-
-                  <p class="text">
-                    Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
         </div>
-      </section> -->
-
-        <!-- 
-        - #BLOG
-      -->
-
-        <section class="section blog" id="blog">
-          <div class="container">
-            <h2 class="h2 section-title underline">Our Happy Customers</h2>
-
-            <ul class="blog-list">
-              <li>
-                <div class="blog-card">
-                  <figure class="banner">
-                    <a href="#">
-                      <img
-                        src="./assets/images/blog-1.jpg"
-                        width="750"
-                        height="350"
-                        loading="lazy"
-                        alt="Vestibulum massa arcu, consectetu pellentesque scelerisque."
-                        class="img-cover"
-                      />
-                    </a>
-                  </figure>
-
-                  <div class="content">
-                    <h3 class="h3 title">
-                      <a href="#"> Founder "Maa Ki Mithai" - Delhi </a>
-                    </h3>
-
-                    <p class="text">
-                      Amazing Work!! I own a Business "Maa Ki Mithai" in Delhi
-                      which was not so popular. They ran several Ads to promote
-                      our Business. I crossed over 5000 Sales in a single month
-                      which was a Dream For Me. Thank You very Much.
-                    </p>
-                  </div>
-                </div>
-              </li>
-
-              <li>
-                <div class="blog-card">
-                  <figure class="banner">
-                    <a href="#">
-                      <img
-                        src="./assets/images/blog-2.png"
-                        width="750"
-                        height="350"
-                        loading="lazy"
-                        alt="Quisque egestas iaculis felis eget placerat ut pulvinar mi."
-                        class="img-cover"
-                      />
-                    </a>
-                  </figure>
-
-                  <div class="content">
-                    <h3 class="h3 title">
-                      <a href="#">
-                        Growthingly - Company which provides Blog Content
-                      </a>
-                    </h3>
-
-                    <p class="text">
-                      We are a Company Providing Blog Content to people in USA.
-                      Lone Creative has helped us gain customers through
-                      different types of advertising and got us income more than
-                      100k just under 15k investment.
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="blog-card">
-                  <figure class="banner">
-                    <a href="#">
-                      <img
-                        src="./assets/images/blog-3.jpg"
-                        width="750"
-                        height="350"
-                        loading="lazy"
-                        alt="Quisque egestas iaculis felis eget placerat ut pulvinar mi."
-                        class="img-cover"
-                      />
-                    </a>
-                  </figure>
-
-                  <div class="content">
-                    <h3 class="h3 title">
-                      <a href="#"> Subhash Book Bazaar </a>
-                    </h3>
-
-                    <p class="text">
-                      Lone Creative Helped me Gain Customers for my books. They
-                      ran different Ads to attract customers and made me a
-                      revenue more than 3+ lakhs Thank You !!
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="blog-card">
-                  <figure class="banner">
-                    <a href="#">
-                      <img
-                        src="./assets/images/blog-4.png"
-                        width="750"
-                        height="350"
-                        loading="lazy"
-                        alt="Quisque egestas iaculis felis eget placerat ut pulvinar mi."
-                        class="img-cover"
-                      />
-                    </a>
-                  </figure>
-
-                  <div class="content">
-                    <h3 class="h3 title">
-                      <a href="#"> StudyCrypto - On Instagram Currently </a>
-                    </h3>
-
-                    <p class="text">
-                      Lone Creative Helped me gain intagram followers and reach
-                      23K+ active instagram followers. I am now able to sell my
-                      courses and get a revenue stream generated from instagram.
-                      Thank You !!
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="blog-card">
-                  <figure class="banner">
-                    <a href="#">
-                      <img
-                        src="./assets/images/blog-5.jpg"
-                        width="750"
-                        height="350"
-                        loading="lazy"
-                        alt="Quisque egestas iaculis felis eget placerat ut pulvinar mi."
-                        class="img-cover"
-                      />
-                    </a>
-                  </figure>
-
-                  <div class="content">
-                    <h3 class="h3 title">
-                      <a href="#"> Offline Tution Classes </a>
-                    </h3>
-
-                    <p class="text">
-                      Myself Ritik , I run an offline coaching center. My
-                      Teaching was loved by Students but I was not so popular.
-                      The thing I need was to reach more students. Lone Creative
-                      Provided me with different types of ads campaign and
-                      increased the number of students in my class. Thank You.
-                      They Tripled (3x) my total students
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-      </article>
     </main>
 
-    <!-- 
-    - #FOOTER
-  -->
+    <hr style="width:90%; color:white; margin:auto;">
 
-    <footer class="footer">
-      <div class="footer-top section" id="contact">
-        <div class="container">
-          <div class="footer-brand">
-            <a href="#" class="logo">LoneCreative </a>
-
-            <p class="text">
-              Here are some links to contact us.
-              We would try our best to respond you.
-            </p>
-
-            <!-- <ul class="social-list">
-              <li>
-                <a href="#" class="social-link">
-                  <ion-icon name="logo-facebook"></ion-icon>
-                </a>
-              </li>
-
-              <li>
-                <a href="#" class="social-link">
-                  <ion-icon name="logo-instagram"></ion-icon>
-                </a>
-              </li>
-
-              <li>
-                <a href="#" class="social-link">
-                  <ion-icon name="logo-twitter"></ion-icon>
-                </a>
-              </li>
-            </ul> -->
-          </div>
-
-          <ul class="footer-list">
-            <li>
-              <p class="footer-list-title">Our links</p>
-            </li>
-
-            <li>
-              <a href="#home" class="footer-link">Home</a>
-            </li>
-
-            <li>
-              <a href="#about" class="footer-link">About Us</a>
-            </li>
-
-            <li>
-              <a href="#services" class="footer-link">Services</a>
-            </li>
-
-            <!-- <li>
-              <a href="#" class="footer-link">Team</a>
-            </li> -->
-
-            <li>
-              <a href="#blog" class="footer-link">Customers</a>
-            </li>
-          </ul>
-
-          <ul class="footer-list">
-            <li>
-              <p class="footer-list-title">Our Services</p>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Website Designing</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Google ads</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Facebok ads</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Instagram Ads</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Youtube Ads</a>
-            </li>
-          </ul>
-
-          <!-- <ul class="footer-list">
-            <li>
-              <p class="footer-list-title">Other links</p>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">FAQ</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Portfolio</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Privacy Policy</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Terms & Conditions</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Support</a>
-            </li>
-          </ul> -->
-
-          <ul class="footer-list">
-            <li>
-              <p class="footer-list-title">Contact Us</p>
-            </li>
-
-            <li class="footer-item">
-              <div class="footer-item-icon">
-                <ion-icon name="call"></ion-icon>
-              </div>
-
-              <div>
-                <a href="tel:8274854617" class="footer-item-link"
-                  >827-485-4617</a
-                >
-                <!-- <a href="tel:+2486871365" class="footer-item-link"
-                  >+248-687-1365</a
-                > -->
-              </div>
-            </li>
-
-            <li class="footer-item">
-              <div class="footer-item-icon">
-                <ion-icon name="mail"></ion-icon>
-              </div>
-
-              <div>
-                <a href="mailto:info@LoneCreative .com" class="footer-item-link"
-                  >LoneCreative@gmail.com</a
-                >
-                <!-- <a href="mailto:help@LoneCreative .com" class="footer-item-link"
-                  >help@LoneCreative .com</a
-                > -->
-              </div>
-            </li>
-
-            <li class="footer-item">
-              <div class="footer-item-icon">
-                <ion-icon name="location"></ion-icon>
-              </div>
-
-              <address class="footer-item-link">
-                Nagpr , Maharashtra , India
-              </address>
-            </li>
-          </ul>
+    <main>
+        <div class="album">
+            <div id="features" class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style="margin-top:10px;">
+                    <div data-aos="fade-right" class="container my-5 col-11" style="color:black;">
+                        <div class="p-4 pb-4 pe-lg-4 pt-lg-4 pb-lg-5 align-items-center rounded-3 border shadow-lg bg-light"
+                            style="text-align:center; margin-bottom:-50px; height:280px;">
+                            <img class="d-block mx-auto mb-3" src="img/tick.png" alt="" width="72" height="72">
+                            <div class="card-body">
+                                <h4 class="card-title mb-3 font-weight-bold"><span class="feature-heading">Your one stop solution to effortlessly grow your brand</span></h4>
+                                <p class="card-text">Vertical content that is
+                                    optimized for layout of every platform.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" class="container my-5 col-11" style="color:black;">
+                        <div class="p-4 pb-4 pe-lg-4 pt-lg-4 pb-lg-5 align-items-center rounded-3 border shadow-lg bg-light"
+                            style="text-align:center; margin-bottom:-50px; height:280px;">
+                            <img class="d-block mx-auto mb-3" src="img/tick.png" alt="" width="72" height="72">
+                            <div class="card-body">
+                                <h4 class="card-title mb-3"><span class="feature-heading">Repurposed + Original content</span></h4>
+                                <p class="card-text">Repurposing your existing long form content along with creating
+                                    original short form content you can rely on.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-left" class="container my-5 col-11" style="color:black;">
+                        <div class="p-4 pb-4 pe-lg-4 pt-lg-4 pb-lg-5 align-items-center rounded-3 border shadow-lg bg-light"
+                            style="text-align:center;  height:280px;">
+                            <img class="d-block mx-auto mb-3" src="img/tick.png" alt="" width="72" height="72">
+                            <div class="card-body">
+                                <h4 class="card-title mb-3"><span class="feature-heading">Goodbye to unreliable freelancers</span></h4>
+                                <p class="card-text">Say Hello to your valuable time saved.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-right" class="container my-5 col-11" style="color:black;">
+                        <div class="p-4 pb-4 pe-lg-4 pt-lg-4 pb-lg-5 align-items-center rounded-3 border shadow-lg bg-light"
+                            style="text-align:center; margin-bottom:-50px; height:280px;">
+                            <img class="d-block mx-auto mb-3" src="img/tick.png" alt="" width="72" height="72">
+                            <div class="card-body">
+                                <h4 class="card-title mb-3"><span class="feature-heading">Grow your brand on autopilot</span></h4>
+                                <p class="card-text">The best part, we build your brand while you focus on growing your
+                                    business.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" class="container my-5 col-11" style="color:black;">
+                        <div class="p-4 pb-4 pe-lg-4 pt-lg-4 pb-lg-5 align-items-center rounded-3 border shadow-lg bg-light"
+                            style="text-align:center; margin-bottom:-50px; height:280px;">
+                            <img class="d-block mx-auto mb-3" src="img/tick.png" alt="" width="72" height="72">
+                            <div class="card-body">
+                                <h4 class="card-title mb-3"><span class="feature-heading">Goodbye to endless feedback loops</span></h4>
+                                <p class="card-text">Directly communicate with our editors, waste 0 time in the feedback
+                                    loop.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-left" class="container my-5 col-11" style="color:black;">
+                        <div class="p-4 pb-4 pe-lg-4 pt-lg-4 pb-lg-5 align-items-center rounded-3 border shadow-lg bg-light"
+                            style="text-align:center; margin-bottom:-50px; height:280px;">
+                            <img class="d-block mx-auto mb-3" src="img/tick.png" alt="" width="72" height="72">
+                            <div class="card-body">
+                                <h4 class="card-title mb-3"><span class="feature-heading">One time payment </span></h4>
+                                <p class="card-text">
+                                    No hidden charges, no lock in period. Just monthly and quarterly packages to choose from.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
-      </div>
+    </main>
 
-      <div class="footer-bottom">
-        <p class="copyright">
-          &copy; 2022
-          <a href="#contact" class="copyright-link">LoneCreative</a>. All Right
-          Reserved
-        </p>
-      </div>
+    <div class="container px-4 py-5 col-9" id="custom-cards">
+        <h2 class="pb-2 border-bottom text-center" style="font-weight:800; color:white;">OUR BEST WORK</h2>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <!-- <iframe style="display:block;" src="https://player.vimeo.com/video/758825301?h=532b86d75c" width="640"
+                height="450" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> -->
+            
+            
+            <div data-aos="fade-right" id="Vid1" style="display:block;" width="640" height="450"><script src="https://fast.wistia.com/embed/medias/g1221bnz2y.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+                <!-- <iframe src="//fast.wistia.net/embed/iframe/g1221bnz2y" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe> -->
+                <script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
+                <!-- <script>
+                window._wq = window._wq || [];
+                _wq.push({ id: "g1221bnz2y", onReady: function(video) {
+                  console.log("I got a handle to the video!", video);
+                  autoPlay: true
+                  video.mute();
+                  video.play();
+                }});
+                </script> -->
+                <script src="index.js"></script>
+
+
+                <div class="wistia_responsive_padding" style="padding:177.71% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_g1221bnz2y videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/g1221bnz2y/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div></div>
+            <div data-aos="fade-up" style="display:block;" width="640" height="450"><script src="https://fast.wistia.com/embed/medias/jdwgwux9jd.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:177.5% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_jdwgwux9jd videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/jdwgwux9jd/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div></div>
+            <div data-aos="fade-left" style="display:block;" width="640" height="450"><script src="https://fast.wistia.com/embed/medias/2ynquhdr9a.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:177.5% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_2ynquhdr9a videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/2ynquhdr9a/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div></div>
+
+
+                <!-- <iframe style="display:block;" src="https://player.vimeo.com/video/758825301?" width="640"
+                height="450" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe style="display:block;" src="https://player.vimeo.com/video/720351968?background=1&controls=0" width="640"
+                height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <iframe style="display:block;" src="https://player.vimeo.com/video/762891614?" width="640"
+                height="450" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> -->
+        </div>
+        <div class="col-md-12 text-center">
+            <!-- <button type="button" class="btn btn-primary btn-lg ">Explore Work</button> -->
+            <button type="button" class="btn btn-primary btn-lg "><a target="_blank" style="color: azure; text-decoration: none;" href="https://drive.google.com/drive/folders/1NRlY0Pb3GAmQpdXsBVr30CVZ5GCVBUTo">Explore Our Work</a></button>
+        </div>
+    </div>
+
+    <section class="price_plan_area section_padding_130_80" id="pricing">
+        <br>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-lg-6">
+                    <!-- Section Heading-->
+                    <div class="section-heading text-center wow fadeInUp" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <h6 style="font-weight:800;" >Fixed monthly rate, no hidden charges</h6>
+                        <h3 style="font-weight:800;">MEMBERSHIP OPTIONS</h3>
+                        <p></p>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- Single Price Plan Area-->
+                <div data-aos="fade-right" class="col-12 col-sm-8 col-md-6 col-lg-4">
+                    <div class="single_price_plan wow fadeInUp" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <div class="title" style="margin-bottom: 0;"><span class="pricetagspan">Most Popular</span></div>
+                        <div class="price" style="margin-bottom: 1rem;">
+                            <h4><span class="pricepricespan">$499/m</span></h4>
+                        </div>
+                        <div class="title">
+                            <h2><span class="pricetitlespan">Monthly</span></h2>
+                            <!-- <p>Most popular </p> -->
+                            <div class="line"></div>
+                        </div>
+                        <div class="description">
+                            <p><img class="tick2img" src="img/tick2.png"  alt=""><i class="lni lni-checkmark-circle"></i>Unlimited revisions</p>
+                            <p><img class="tick2img" src="img/tick2.png"  alt=""><i class="lni lni-checkmark-circle"></i>Personalized video branding</p>
+                            <p><img class="tick2img" src="img/tick2.png"  alt=""><i class="lni lni-close"></i>Optimized for every platform</p>
+                            <p><img class="tick2img" src="img/tick2.png"  alt=""><i class="lni lni-close"></i>30-40 videos</p>
+                            <p><img class="tick2img" src="img/tick2.png"  alt=""><i class="lni lni-close"></i>Stress free content distribution</p>
+                        </div>
+                        <div class="button"><a class="btn btn-info btn-2" href="https://rzp.io/l/dtG2O9B"><span style="font-weight: 900 ;">Get Started</span></a></div>
+                    </div>
+                </div>
+                <!-- Single Price Plan Area-->
+                <div data-aos="fade-up" class="col-12 col-sm-8 col-md-6 col-lg-4">
+                    <div class="single_price_plan active wow fadeInUp" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <!-- Side Shape-->
+                        <div class="side-shape"><img src="https://bootdey.com/img/popular-pricing.png" alt=""></div>
+                        <div class="title" style="margin-bottom: 0;"><span class="pricetagspan">Save $50 Per Month</span></div>
+                        <div class="price" style="margin-bottom: 1rem;">
+                            <h4><span class="pricepricespan">$449/m</span></h4>
+                            
+                        </div>
+                        <div class="title">
+                            <!-- <h5>Save <b>$50</b> per month</h5> -->
+                            <h2><span class="pricetitlespan">Quarterly</span></h2>
+                            <!-- <p>For Small Business Team</p> -->
+                            <div class="line"></div>
+                        </div>
+                        <div class="description">
+                            <!-- <p><i class="lni lni-checkmark-circle"></i>Save $50 per month</p> -->
+                            <p><img class="tick2img" src="img/tick2.png"  alt=""><i class="lni lni-checkmark-circle"></i>Unlimited revisions</p>
+                            <p><img class="tick2img" src="img/tick2.png"  alt=""><i class="lni lni-checkmark-circle"></i>Personalized video branding</p>
+                            <p><img class="tick2img" src="img/tick2.png"  alt=""><i class="lni lni-checkmark-circle"></i>Optimized for every platform</p>
+                            <p><img class="tick2img" src="img/tick2.png"  alt=""><i class="lni lni-checkmark-circle"></i>30-40 videos</p>
+                            <p><img class="tick2img" src="img/tick2.png"  alt=""><i class="lni lni-close"></i>Stress free content distribution</p>
+                        </div>
+                        <div class="button"><a class="btn btn-info" href="https://rzp.io/l/oym1jIA"><span style="font-weight: 900 ;">Get Started</span></a></div>
+                    </div>
+                </div>
+                <!-- Single Price Plan Area-->
+                <div data-aos="fade-left" class="col-12 col-sm-8 col-md-6 col-lg-4">
+                    <div class="single_price_plan wow fadeInUp" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <div class="title" style="margin-bottom: 0;"><span class="pricetagspan">Test before you commit</span></div>
+                        <div class="price" style="margin-bottom: 1rem;">
+                            <h4><span class="pricepricespan">$149</span></h4>
+                            
+                        </div>
+                        <div class="title">
+                            <!-- <h5><b>One Time</b></h5> -->
+                            <h2><span class="pricetitlespan">Try it out</span></h2>
+                            <!-- <p>Unlimited Possibilities</p> -->
+                            
+                            <!-- <p id="gap"></p> -->
+                            <div class="line"></div>
+                        </div>
+                        <div class="description">
+                            <!-- <p><i class="lni lni-checkmark-circle"></i>Test before you commit</p> -->
+                            <p><img class="tick2img" src="img/tick2.png"  alt=""><i class="lni lni-checkmark-circle"></i>Unlimited revisions</p>
+                            <p><img class="tick2img" src="img/tick2.png"  alt=""><i class="lni lni-checkmark-circle"></i>Personalized video branding</p>  
+                            <p><img class="tick2img" src="img/tick2.png"  alt=""><i class="lni lni-checkmark-circle"></i>Optimized for every platform</p>
+                            <p><img class="tick2img" src="img/tick2.png"  alt=""><i class="lni lni-checkmark-circle"></i>10 vertical videos</p>
+                            <p><img class="tick2img" src="img/tick2.png"  alt=""><i class="lni lni-checkmark-circle"></i>Stress free content distribution</p>
+                        </div>
+                        <div class="button"><a class="btn btn-info" href="https://rzp.io/l/zr9ipV0"><span style="font-weight: 900 ;">Get Started</span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="col-md-12 text-center pb-4 pt-4" id="Talk">
+            <h2 class="mb-1">Need a Custom Package ?</h2>
+            <!-- <h1 class="mb-3">" NEED A CUSTOM PACKAGE ? "</h1> -->
+            <h1 id="TalkHeading" class="mb-3">LET'S TALK</h1>
+            <button type="button" class="btn btn-primary btn-lg mb-4">BOOK A FREE CALL</button>
+            <h3 id="TalkHeading" class="mb-3"> Mail us at - hello@lonecreatives.com</h3>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" target="_blank" href=" https://www.instagram.com/lone_creatives/" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.linkedin.com/company/lone-creatives/" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+                
+                <!-- Email -->
+                <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="mailto:hello@lonecreatives.com" role="button"><i
+                        class="fa fa-envelope"></i></a>
+
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            Lone Creatives © 2023 Copyright
+        </div>
+        <!-- Copyright -->
     </footer>
 
-    <!-- 
-    - #GO TO TOP
-  -->
+    <!-- End of .container -->
 
-    <a href="#top" class="go-top active" aria-label="Go To Top" data-go-top>
-      <ion-icon name="arrow-up-outline"></ion-icon>
-    </a>
 
-    <!-- 
-    - custom js link
-  -->
-    <script src="./assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1000, // values from 0 to 3000, with step 50ms
+      });
+    </script>
+</body>
 
-    <!-- 
-    - ionicon link
-  -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
 </html>
